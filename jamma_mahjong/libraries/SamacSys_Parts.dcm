@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP A105SYCQ04
+D Switch,toggle,1P,(on) off (on),PCB mnt
+K
+F https://componentsearchengine.com/Datasheets/1/A105SYCQ04.pdf
+$ENDCMP
+#
+#End Doc Library

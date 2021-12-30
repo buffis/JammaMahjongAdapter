@@ -103,8 +103,6 @@ Text GLabel 2150 1900 0    50   Input ~ 0
 5V
 Text GLabel 2150 2000 0    50   Input ~ 0
 -5V
-Text GLabel 2650 2000 2    50   Input ~ 0
--5V
 Text GLabel 2150 2100 0    50   Input ~ 0
 12V
 Text GLabel 2650 2100 2    50   Input ~ 0
@@ -214,9 +212,9 @@ SPK+
 Text GLabel 4900 2500 2    50   Input ~ 0
 SPK+
 Text GLabel 2650 2500 2    50   Input ~ 0
-SPK-
+JAMMA_SPK-
 Text GLabel 4400 2500 0    50   Input ~ 0
-SPK-
+JONG_SPK-
 Text GLabel 4400 2200 0    50   Input ~ 0
 TEST
 Text GLabel 4400 2300 0    50   Input ~ 0
@@ -264,8 +262,6 @@ NoConn ~ 4400 3100
 NoConn ~ 4900 3200
 NoConn ~ 4900 3300
 NoConn ~ 4400 3300
-NoConn ~ 4400 3900
-NoConn ~ 4900 3900
 Text GLabel 4900 2100 2    50   Input ~ 0
 SERVICE
 Wire Wire Line
@@ -301,7 +297,6 @@ COIN
 NoConn ~ 2650 3100
 Text GLabel 2150 3000 0    50   Input ~ 0
 TEST
-NoConn ~ 2150 2900
 NoConn ~ 2650 3000
 $Comp
 L jamma:Mahjong_Connector J2
@@ -401,4 +396,68 @@ Text GLabel 2150 3600 0    50   Input ~ 0
 COM3-10
 Text GLabel 2150 3700 0    50   Input ~ 0
 COM4-7
+Wire Wire Line
+	2150 2900 1750 2900
+Wire Wire Line
+	1750 2900 1750 2950
+$Comp
+L power:GND #PWR0110
+U 1 1 61CCDF98
+P 1750 2950
+F 0 "#PWR0110" H 1750 2700 50  0001 C CNN
+F 1 "GND" H 1755 2777 50  0000 C CNN
+F 2 "" H 1750 2950 50  0001 C CNN
+F 3 "" H 1750 2950 50  0001 C CNN
+	1    1750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JMP1
+U 1 1 61CD2BFC
+P 7850 2700
+F 0 "JMP1" H 7850 2905 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7850 2814 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7850 2700 50  0001 C CNN
+F 3 "~" H 7850 2700 50  0001 C CNN
+	1    7850 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 3900 0    50   Input ~ 0
+-5V_M
+NoConn ~ 4900 3900
+NoConn ~ 2650 2000
+Text GLabel 7700 2700 0    50   Input ~ 0
+-5V_M
+Text GLabel 8000 2700 2    50   Input ~ 0
+-5V
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 61D02BFB
+P 7850 3200
+F 0 "SW1" H 7850 3485 50  0000 C CNN
+F 1 "SW_SPDT" H 7850 3394 50  0000 C CNN
+F 2 "SPDT:A101SYCQ04" H 7850 3200 50  0001 C CNN
+F 3 "~" H 7850 3200 50  0001 C CNN
+	1    7850 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 3200 0    50   Input ~ 0
+JAMMA_SPK-
+Text GLabel 8050 3100 2    50   Input ~ 0
+JONG_SPK-
+$Comp
+L power:GND #PWR0111
+U 1 1 61D06E40
+P 8150 3400
+F 0 "#PWR0111" H 8150 3150 50  0001 C CNN
+F 1 "GND" H 8155 3227 50  0000 C CNN
+F 2 "" H 8150 3400 50  0001 C CNN
+F 3 "" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3300 8150 3300
+Wire Wire Line
+	8150 3300 8150 3400
 $EndSCHEMATC
