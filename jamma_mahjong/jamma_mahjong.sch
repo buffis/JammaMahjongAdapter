@@ -16,96 +16,96 @@ $EndDescr
 $Comp
 L power:GND #PWR0101
 U 1 1 61B5ED5C
-P 2950 1800
-F 0 "#PWR0101" H 2950 1550 50  0001 C CNN
-F 1 "GND" H 2955 1627 50  0000 C CNN
-F 2 "" H 2950 1800 50  0001 C CNN
-F 3 "" H 2950 1800 50  0001 C CNN
-	1    2950 1800
+P 3450 1800
+F 0 "#PWR0101" H 3450 1550 50  0001 C CNN
+F 1 "GND" H 3455 1627 50  0000 C CNN
+F 2 "" H 3450 1800 50  0001 C CNN
+F 3 "" H 3450 1800 50  0001 C CNN
+	1    3450 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 61B60220
-P 1850 1800
-F 0 "#PWR0102" H 1850 1550 50  0001 C CNN
-F 1 "GND" H 1855 1627 50  0000 C CNN
-F 2 "" H 1850 1800 50  0001 C CNN
-F 3 "" H 1850 1800 50  0001 C CNN
-	1    1850 1800
+P 2350 1800
+F 0 "#PWR0102" H 2350 1550 50  0001 C CNN
+F 1 "GND" H 2355 1627 50  0000 C CNN
+F 2 "" H 2350 1800 50  0001 C CNN
+F 3 "" H 2350 1800 50  0001 C CNN
+	1    2350 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 1700 2950 1700
+	3150 1700 3450 1700
 Wire Wire Line
-	2950 1700 2950 1800
+	3450 1700 3450 1800
 Wire Wire Line
-	2650 1600 2950 1600
+	3150 1600 3450 1600
 Wire Wire Line
-	2950 1600 2950 1700
-Connection ~ 2950 1700
+	3450 1600 3450 1700
+Connection ~ 3450 1700
 Wire Wire Line
-	2150 1700 1850 1700
+	2650 1700 2350 1700
 Wire Wire Line
-	1850 1700 1850 1800
+	2350 1700 2350 1800
 Wire Wire Line
-	1850 1700 1850 1600
+	2350 1700 2350 1600
 Wire Wire Line
-	1850 1600 2150 1600
-Connection ~ 1850 1700
+	2350 1600 2650 1600
+Connection ~ 2350 1700
 $Comp
 L power:GND #PWR0103
 U 1 1 61B64309
-P 2950 4400
-F 0 "#PWR0103" H 2950 4150 50  0001 C CNN
-F 1 "GND" H 2955 4227 50  0000 C CNN
-F 2 "" H 2950 4400 50  0001 C CNN
-F 3 "" H 2950 4400 50  0001 C CNN
-	1    2950 4400
+P 3450 4400
+F 0 "#PWR0103" H 3450 4150 50  0001 C CNN
+F 1 "GND" H 3455 4227 50  0000 C CNN
+F 2 "" H 3450 4400 50  0001 C CNN
+F 3 "" H 3450 4400 50  0001 C CNN
+	1    3450 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 4300 2950 4300
+	3150 4300 3450 4300
 Wire Wire Line
-	2950 4300 2950 4400
+	3450 4300 3450 4400
 Wire Wire Line
-	2650 4200 2950 4200
+	3150 4200 3450 4200
 Wire Wire Line
-	2950 4200 2950 4300
-Connection ~ 2950 4300
+	3450 4200 3450 4300
+Connection ~ 3450 4300
 $Comp
 L power:GND #PWR0104
 U 1 1 61B6574C
-P 1850 4400
-F 0 "#PWR0104" H 1850 4150 50  0001 C CNN
-F 1 "GND" H 1855 4227 50  0000 C CNN
-F 2 "" H 1850 4400 50  0001 C CNN
-F 3 "" H 1850 4400 50  0001 C CNN
-	1    1850 4400
+P 2350 4400
+F 0 "#PWR0104" H 2350 4150 50  0001 C CNN
+F 1 "GND" H 2355 4227 50  0000 C CNN
+F 2 "" H 2350 4400 50  0001 C CNN
+F 3 "" H 2350 4400 50  0001 C CNN
+	1    2350 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 4300 1850 4300
+	2650 4300 2350 4300
 Wire Wire Line
-	1850 4300 1850 4400
+	2350 4300 2350 4400
 Wire Wire Line
-	1850 4300 1850 4200
+	2350 4300 2350 4200
 Wire Wire Line
-	1850 4200 2150 4200
-Connection ~ 1850 4300
-Text GLabel 2150 1800 0    50   Input ~ 0
+	2350 4200 2650 4200
+Connection ~ 2350 4300
+Text GLabel 2650 1800 0    50   Input ~ 0
 5V
-Text GLabel 2650 1800 2    50   Input ~ 0
+Text GLabel 3150 1800 2    50   Input ~ 0
 5V
-Text GLabel 2650 1900 2    50   Input ~ 0
+Text GLabel 3150 1900 2    50   Input ~ 0
 5V
-Text GLabel 2150 1900 0    50   Input ~ 0
+Text GLabel 2650 1900 0    50   Input ~ 0
 5V
-Text GLabel 2150 2000 0    50   Input ~ 0
+Text GLabel 3150 2000 2    50   Input ~ 0
 -5V
-Text GLabel 2150 2100 0    50   Input ~ 0
+Text GLabel 2650 2100 0    50   Input ~ 0
 12V
-Text GLabel 2650 2100 2    50   Input ~ 0
+Text GLabel 3150 2100 2    50   Input ~ 0
 12V
 $Comp
 L power:GND #PWR0105
@@ -207,11 +207,11 @@ F 3 "" H 4100 2000 50  0001 C CNN
 	1    4100 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 2500 0    50   Input ~ 0
+Text GLabel 2650 2500 0    50   Input ~ 0
 SPK+
 Text GLabel 4900 2500 2    50   Input ~ 0
 SPK+
-Text GLabel 2650 2500 2    50   Input ~ 0
+Text GLabel 3150 2500 2    50   Input ~ 0
 JAMMA_SPK-
 Text GLabel 4400 2500 0    50   Input ~ 0
 JONG_SPK-
@@ -267,37 +267,37 @@ SERVICE
 Wire Wire Line
 	4900 2000 5350 2000
 NoConn ~ 4900 2200
-NoConn ~ 2150 4100
 NoConn ~ 2650 4100
-NoConn ~ 2150 3200
+NoConn ~ 3150 4100
 NoConn ~ 2650 3200
-NoConn ~ 2650 3900
+NoConn ~ 3150 3200
+NoConn ~ 3150 3900
+NoConn ~ 3150 4000
 NoConn ~ 2650 4000
-NoConn ~ 2150 4000
-NoConn ~ 2150 3900
-NoConn ~ 2150 3800
-NoConn ~ 2150 2600
+NoConn ~ 2650 3900
+NoConn ~ 2650 3800
 NoConn ~ 2650 2600
-NoConn ~ 2150 2300
-NoConn ~ 2150 2400
+NoConn ~ 3150 2600
 NoConn ~ 2650 2300
 NoConn ~ 2650 2400
-Text GLabel 2650 2700 2    50   Input ~ 0
+NoConn ~ 3150 2300
+NoConn ~ 3150 2400
+Text GLabel 3150 2700 2    50   Input ~ 0
 GREEN
-Text GLabel 2650 2800 2    50   Input ~ 0
+Text GLabel 3150 2800 2    50   Input ~ 0
 SYNC
-Text GLabel 2150 2700 0    50   Input ~ 0
+Text GLabel 2650 2700 0    50   Input ~ 0
 RED
-Text GLabel 2150 2800 0    50   Input ~ 0
+Text GLabel 2650 2800 0    50   Input ~ 0
 BLUE
-Text GLabel 2650 2900 2    50   Input ~ 0
+Text GLabel 3150 2900 2    50   Input ~ 0
 SERVICE
-Text GLabel 2150 3100 0    50   Input ~ 0
+Text GLabel 2650 3100 0    50   Input ~ 0
 COIN
-NoConn ~ 2650 3100
-Text GLabel 2150 3000 0    50   Input ~ 0
+NoConn ~ 3150 3100
+Text GLabel 2650 3000 0    50   Input ~ 0
 TEST
-NoConn ~ 2650 3000
+NoConn ~ 3150 3000
 $Comp
 L jamma:Mahjong_Connector J2
 U 1 1 61BC1EC6
@@ -313,151 +313,194 @@ Text GLabel 4400 3800 0    50   Input ~ 0
 12V
 Text GLabel 4900 3800 2    50   Input ~ 0
 12V
-Text GLabel 8050 1500 2    50   Input ~ 0
+Text GLabel 6600 1650 2    50   Input ~ 0
 KEY0-4
-Text GLabel 8050 1600 2    50   Input ~ 0
+Text GLabel 6600 1750 2    50   Input ~ 0
 KEY1-5
-Text GLabel 8050 1700 2    50   Input ~ 0
+Text GLabel 6600 1850 2    50   Input ~ 0
 KEY2-8
-Text GLabel 8050 1800 2    50   Input ~ 0
+Text GLabel 6600 1950 2    50   Input ~ 0
 KEY3-9
-Text GLabel 8050 1900 2    50   Input ~ 0
+Text GLabel 6600 2050 2    50   Input ~ 0
 KEY4-11
-Text GLabel 8050 2000 2    50   Input ~ 0
+Text GLabel 6600 2150 2    50   Input ~ 0
 KEY5-1
-Text GLabel 7550 2000 0    50   Input ~ 0
+Text GLabel 6100 2150 0    50   Input ~ 0
 COM4-7
-Text GLabel 7550 1900 0    50   Input ~ 0
+Text GLabel 6100 2050 0    50   Input ~ 0
 COM3-10
-Text GLabel 7550 1800 0    50   Input ~ 0
+Text GLabel 6100 1950 0    50   Input ~ 0
 COM2-6
-Text GLabel 7550 1700 0    50   Input ~ 0
+Text GLabel 6100 1850 0    50   Input ~ 0
 COM1-2
-Text GLabel 7550 1600 0    50   Input ~ 0
+Text GLabel 6100 1750 0    50   Input ~ 0
 COM0-3
-Text GLabel 7550 1500 0    50   Input ~ 0
+Text GLabel 6100 1650 0    50   Input ~ 0
 COIN
 $Comp
 L power:GND #PWR0109
 U 1 1 61C03E3B
-P 8500 1400
-F 0 "#PWR0109" H 8500 1150 50  0001 C CNN
-F 1 "GND" H 8505 1227 50  0000 C CNN
-F 2 "" H 8500 1400 50  0001 C CNN
-F 3 "" H 8500 1400 50  0001 C CNN
-	1    8500 1400
+P 7050 1550
+F 0 "#PWR0109" H 7050 1300 50  0001 C CNN
+F 1 "GND" H 7055 1377 50  0000 C CNN
+F 2 "" H 7050 1550 50  0001 C CNN
+F 3 "" H 7050 1550 50  0001 C CNN
+	1    7050 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 1400 8500 1400
-Text GLabel 7550 1400 0    50   Input ~ 0
+	6600 1550 7050 1550
+Text GLabel 6100 1550 0    50   Input ~ 0
 5V
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J3
 U 1 1 61C0E561
-P 7750 1700
-F 0 "J3" H 7800 2217 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 7800 2126 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_B14B-PHDSS_2x07_P2.00mm_Vertical" H 7750 1700 50  0001 C CNN
-F 3 "~" H 7750 1700 50  0001 C CNN
-	1    7750 1700
+P 6300 1850
+F 0 "J3" H 6350 2367 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 6350 2276 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_B14B-PHDSS_2x07_P2.00mm_Vertical" H 6300 1850 50  0001 C CNN
+F 3 "~" H 6300 1850 50  0001 C CNN
+	1    6300 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 3300 2    50   Input ~ 0
+Text GLabel 3150 3300 2    50   Input ~ 0
 KEY0-4
-Text GLabel 2650 3400 2    50   Input ~ 0
+Text GLabel 3150 3400 2    50   Input ~ 0
 KEY1-5
-Text GLabel 2650 3500 2    50   Input ~ 0
+Text GLabel 3150 3500 2    50   Input ~ 0
 KEY2-8
-Text GLabel 2650 3600 2    50   Input ~ 0
+Text GLabel 3150 3600 2    50   Input ~ 0
 KEY3-9
-Text GLabel 2650 3700 2    50   Input ~ 0
+Text GLabel 3150 3700 2    50   Input ~ 0
 KEY4-11
-Text GLabel 2650 3800 2    50   Input ~ 0
+Text GLabel 3150 3800 2    50   Input ~ 0
 KEY5-1
 $Comp
 L jamma:Jamma_Connector J1
 U 1 1 61BA5287
-P 2400 2950
-F 0 "J1" H 2400 4525 50  0000 C CNN
-F 1 "Jamma_Connector" H 2400 4434 50  0000 C CNN
-F 2 "jamma:JAMMA-56" H 2075 4450 50  0001 C CNN
-F 3 "" H 2075 4450 50  0001 C CNN
-	1    2400 2950
+P 2900 2950
+F 0 "J1" H 2900 4525 50  0000 C CNN
+F 1 "Jamma_Connector" H 2900 4434 50  0000 C CNN
+F 2 "jamma:JAMMA-56" H 2575 4450 50  0001 C CNN
+F 3 "" H 2575 4450 50  0001 C CNN
+	1    2900 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 3400 0    50   Input ~ 0
+Text GLabel 2650 3400 0    50   Input ~ 0
 COM1-2
-Text GLabel 2150 3300 0    50   Input ~ 0
+Text GLabel 2650 3300 0    50   Input ~ 0
 COM0-3
-Text GLabel 2150 3500 0    50   Input ~ 0
+Text GLabel 2650 3500 0    50   Input ~ 0
 COM2-6
-Text GLabel 2150 3600 0    50   Input ~ 0
+Text GLabel 2650 3600 0    50   Input ~ 0
 COM3-10
-Text GLabel 2150 3700 0    50   Input ~ 0
+Text GLabel 2650 3700 0    50   Input ~ 0
 COM4-7
 Wire Wire Line
-	2150 2900 1750 2900
+	2650 2900 2250 2900
 Wire Wire Line
-	1750 2900 1750 2950
+	2250 2900 2250 2950
 $Comp
 L power:GND #PWR0110
 U 1 1 61CCDF98
-P 1750 2950
-F 0 "#PWR0110" H 1750 2700 50  0001 C CNN
-F 1 "GND" H 1755 2777 50  0000 C CNN
-F 2 "" H 1750 2950 50  0001 C CNN
-F 3 "" H 1750 2950 50  0001 C CNN
-	1    1750 2950
+P 2250 2950
+F 0 "#PWR0110" H 2250 2700 50  0001 C CNN
+F 1 "GND" H 2255 2777 50  0000 C CNN
+F 2 "" H 2250 2950 50  0001 C CNN
+F 3 "" H 2250 2950 50  0001 C CNN
+	1    2250 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JMP1
 U 1 1 61CD2BFC
-P 7850 2700
-F 0 "JMP1" H 7850 2905 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 7850 2814 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7850 2700 50  0001 C CNN
-F 3 "~" H 7850 2700 50  0001 C CNN
-	1    7850 2700
+P 6400 3600
+F 0 "JMP1" H 6400 3805 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3714 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6400 3600 50  0001 C CNN
+F 3 "~" H 6400 3600 50  0001 C CNN
+	1    6400 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4400 3900 0    50   Input ~ 0
+Text GLabel 4900 3900 2    50   Input ~ 0
 -5V_M
-NoConn ~ 4900 3900
-NoConn ~ 2650 2000
-Text GLabel 7700 2700 0    50   Input ~ 0
+NoConn ~ 4400 3900
+Text GLabel 6250 3600 0    50   Input ~ 0
 -5V_M
-Text GLabel 8000 2700 2    50   Input ~ 0
+Text GLabel 6550 3600 2    50   Input ~ 0
 -5V
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 61D02BFB
-P 7850 3200
-F 0 "SW1" H 7850 3485 50  0000 C CNN
-F 1 "SW_SPDT" H 7850 3394 50  0000 C CNN
-F 2 "SPDT:A101SYCQ04" H 7850 3200 50  0001 C CNN
-F 3 "~" H 7850 3200 50  0001 C CNN
-	1    7850 3200
+P 6350 2850
+F 0 "SW1" H 6350 3135 50  0000 C CNN
+F 1 "SW_SPDT" H 6350 3044 50  0000 C CNN
+F 2 "SPDT:A101SYCQ04" H 6350 2850 50  0001 C CNN
+F 3 "~" H 6350 2850 50  0001 C CNN
+	1    6350 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 3200 0    50   Input ~ 0
+Text GLabel 6150 2850 0    50   Input ~ 0
 JAMMA_SPK-
-Text GLabel 8050 3100 2    50   Input ~ 0
+Text GLabel 6550 2750 2    50   Input ~ 0
 JONG_SPK-
 $Comp
 L power:GND #PWR0111
 U 1 1 61D06E40
-P 8150 3400
-F 0 "#PWR0111" H 8150 3150 50  0001 C CNN
-F 1 "GND" H 8155 3227 50  0000 C CNN
-F 2 "" H 8150 3400 50  0001 C CNN
-F 3 "" H 8150 3400 50  0001 C CNN
-	1    8150 3400
+P 6650 3050
+F 0 "#PWR0111" H 6650 2800 50  0001 C CNN
+F 1 "GND" H 6655 2877 50  0000 C CNN
+F 2 "" H 6650 3050 50  0001 C CNN
+F 3 "" H 6650 3050 50  0001 C CNN
+	1    6650 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 3300 8150 3300
+	6550 2950 6650 2950
 Wire Wire Line
-	8150 3300 8150 3400
+	6650 2950 6650 3050
+NoConn ~ 2650 2000
+$Comp
+L Jumper:SolderJumper_2_Open JMP2
+U 1 1 61CF052F
+P 6400 3950
+F 0 "JMP2" H 6400 4155 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 4064 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6400 3950 50  0001 C CNN
+F 3 "~" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JMP3
+U 1 1 61CF1068
+P 6400 4300
+F 0 "JMP3" H 6400 4505 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 4414 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6400 4300 50  0001 C CNN
+F 3 "~" H 6400 4300 50  0001 C CNN
+	1    6400 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 3950 0    50   Input ~ 0
+JAMMA_SPK-
+Text GLabel 6250 4300 0    50   Input ~ 0
+JAMMA_SPK-
+Text GLabel 6550 3950 2    50   Input ~ 0
+JONG_SPK-
+$Comp
+L power:GND #PWR0112
+U 1 1 61CF8AA0
+P 6650 4400
+F 0 "#PWR0112" H 6650 4150 50  0001 C CNN
+F 1 "GND" H 6655 4227 50  0000 C CNN
+F 2 "" H 6650 4400 50  0001 C CNN
+F 3 "" H 6650 4400 50  0001 C CNN
+	1    6650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4300 6650 4300
+Wire Wire Line
+	6650 4300 6650 4400
 $EndSCHEMATC
