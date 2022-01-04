@@ -269,8 +269,8 @@ Wire Wire Line
 NoConn ~ 4900 2200
 NoConn ~ 2650 4100
 NoConn ~ 3150 4100
-NoConn ~ 2650 3200
-NoConn ~ 3150 3200
+NoConn ~ 3150 3800
+NoConn ~ 3150 3700
 NoConn ~ 3150 3900
 NoConn ~ 3150 4000
 NoConn ~ 2650 4000
@@ -313,68 +313,6 @@ Text GLabel 4400 3800 0    50   Input ~ 0
 12V
 Text GLabel 4900 3800 2    50   Input ~ 0
 12V
-Text GLabel 6600 1650 2    50   Input ~ 0
-KEY0-4
-Text GLabel 6600 1750 2    50   Input ~ 0
-KEY1-5
-Text GLabel 6600 1850 2    50   Input ~ 0
-KEY2-8
-Text GLabel 6600 1950 2    50   Input ~ 0
-KEY3-9
-Text GLabel 6600 2050 2    50   Input ~ 0
-KEY4-11
-Text GLabel 6600 2150 2    50   Input ~ 0
-KEY5-1
-Text GLabel 6100 2150 0    50   Input ~ 0
-COM4-7
-Text GLabel 6100 2050 0    50   Input ~ 0
-COM3-10
-Text GLabel 6100 1950 0    50   Input ~ 0
-COM2-6
-Text GLabel 6100 1850 0    50   Input ~ 0
-COM1-2
-Text GLabel 6100 1750 0    50   Input ~ 0
-COM0-3
-Text GLabel 6100 1650 0    50   Input ~ 0
-COIN
-$Comp
-L power:GND #PWR0109
-U 1 1 61C03E3B
-P 7050 1550
-F 0 "#PWR0109" H 7050 1300 50  0001 C CNN
-F 1 "GND" H 7055 1377 50  0000 C CNN
-F 2 "" H 7050 1550 50  0001 C CNN
-F 3 "" H 7050 1550 50  0001 C CNN
-	1    7050 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 1550 7050 1550
-Text GLabel 6100 1550 0    50   Input ~ 0
-5V
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J3
-U 1 1 61C0E561
-P 6300 1850
-F 0 "J3" H 6350 2367 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 6350 2276 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_B14B-PHDSS_2x07_P2.00mm_Vertical" H 6300 1850 50  0001 C CNN
-F 3 "~" H 6300 1850 50  0001 C CNN
-	1    6300 1850
-	1    0    0    -1  
-$EndComp
-Text GLabel 3150 3300 2    50   Input ~ 0
-KEY0-4
-Text GLabel 3150 3400 2    50   Input ~ 0
-KEY1-5
-Text GLabel 3150 3500 2    50   Input ~ 0
-KEY2-8
-Text GLabel 3150 3600 2    50   Input ~ 0
-KEY3-9
-Text GLabel 3150 3700 2    50   Input ~ 0
-KEY4-11
-Text GLabel 3150 3800 2    50   Input ~ 0
-KEY5-1
 $Comp
 L jamma:Jamma_Connector J1
 U 1 1 61BA5287
@@ -386,16 +324,10 @@ F 3 "" H 2575 4450 50  0001 C CNN
 	1    2900 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 3400 0    50   Input ~ 0
+Text GLabel 3150 3300 2    50   Input ~ 0
 COM1-2
-Text GLabel 2650 3300 0    50   Input ~ 0
+Text GLabel 3150 3200 2    50   Input ~ 0
 COM0-3
-Text GLabel 2650 3500 0    50   Input ~ 0
-COM2-6
-Text GLabel 2650 3600 0    50   Input ~ 0
-COM3-10
-Text GLabel 2650 3700 0    50   Input ~ 0
-COM4-7
 Wire Wire Line
 	2650 2900 2250 2900
 Wire Wire Line
@@ -503,4 +435,96 @@ Wire Wire Line
 	6550 4300 6650 4300
 Wire Wire Line
 	6650 4300 6650 4400
+Text GLabel 8050 3450 0    50   Input ~ 0
+5V
+$Comp
+L power:GND #PWR0109
+U 1 1 61C03E3B
+P 7950 3650
+F 0 "#PWR0109" H 7950 3400 50  0001 C CNN
+F 1 "GND" H 7955 3477 50  0000 C CNN
+F 2 "" H 7950 3650 50  0001 C CNN
+F 3 "" H 7950 3650 50  0001 C CNN
+	1    7950 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 2000 0    50   Input ~ 0
+COIN
+Text GLabel 8050 2850 0    50   Input ~ 0
+KEY5-1
+Text GLabel 8050 2750 0    50   Input ~ 0
+KEY4-11
+Text GLabel 8050 2650 0    50   Input ~ 0
+KEY3-9
+Text GLabel 8050 2550 0    50   Input ~ 0
+KEY2-8
+Text GLabel 8050 2450 0    50   Input ~ 0
+KEY1-5
+Text GLabel 8050 2350 0    50   Input ~ 0
+KEY0-4
+Text GLabel 8050 1500 0    50   Input ~ 0
+COM0-3
+Text GLabel 8050 1600 0    50   Input ~ 0
+COM1-2
+Text GLabel 8050 1700 0    50   Input ~ 0
+COM2-6
+Text GLabel 8050 1800 0    50   Input ~ 0
+COM3-10
+Text GLabel 8050 1900 0    50   Input ~ 0
+COM4-7
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 61D48DCD
+P 8250 1700
+F 0 "J3" H 8330 1692 50  0000 L CNN
+F 1 "Conn_01x06" H 8330 1601 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 8250 1700 50  0001 C CNN
+F 3 "~" H 8250 1700 50  0001 C CNN
+	1    8250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 61D4AD14
+P 8250 2550
+F 0 "J4" H 8330 2542 50  0000 L CNN
+F 1 "Conn_01x06" H 8330 2451 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 8250 2550 50  0001 C CNN
+F 3 "~" H 8250 2550 50  0001 C CNN
+	1    8250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 61D4B4F4
+P 8250 3450
+F 0 "J5" H 8330 3442 50  0000 L CNN
+F 1 "Conn_01x02" H 8330 3351 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 8250 3450 50  0001 C CNN
+F 3 "~" H 8250 3450 50  0001 C CNN
+	1    8250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3650 7950 3550
+Wire Wire Line
+	7950 3550 8050 3550
+Text GLabel 3150 3600 2    50   Input ~ 0
+COM4-7
+Text GLabel 3150 3500 2    50   Input ~ 0
+COM3-10
+Text GLabel 3150 3400 2    50   Input ~ 0
+COM2-6
+Text GLabel 2650 3700 0    50   Input ~ 0
+KEY5-1
+Text GLabel 2650 3600 0    50   Input ~ 0
+KEY4-11
+Text GLabel 2650 3500 0    50   Input ~ 0
+KEY3-9
+Text GLabel 2650 3400 0    50   Input ~ 0
+KEY2-8
+Text GLabel 2650 3300 0    50   Input ~ 0
+KEY1-5
+Text GLabel 2650 3200 0    50   Input ~ 0
+KEY0-4
 $EndSCHEMATC
