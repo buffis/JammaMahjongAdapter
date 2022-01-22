@@ -4,7 +4,7 @@ Allows playing Mahjong PCBs on jamma wired cabinets.
 
 ![Finished adapter](pic.jpg)
 
-![Board](board.jpg)
+![Board](board.png)
 
 Note: Adapter above are missing some final touches present on cad files.
 
