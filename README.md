@@ -4,6 +4,9 @@ Allows playing Mahjong PCBs on jamma wired cabinets.
 
 ![Finished adapter](pic.jpg)
 
+![Board](board.jpg)
+
+Note: Adapter above are missing some final touches present on cad files.
 
 Features:
 - Connectors for Mahjong COM and KEY pins
@@ -15,7 +18,3 @@ Features:
 Fabrication notes:
 - This is a four layer PCB
 - You might want gold finger finishing
-
-TODOs (nice to have):
-- Remove solder mask from fingerboard parts
-- Make sure there's clearance under the cuttable traces to avoid weird potential shorts
